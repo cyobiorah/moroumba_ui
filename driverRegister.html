@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Register</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="Author" content="SCI-Talents, Abimbola Ayodeji, Oriolowo Nancy">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css_js/vendor/jquerymobile/jquery.mobile.min.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/vendor/waves/waves.min.css" type="text/css"  />
+		<link rel="stylesheet" href="css_js/vendor/wow/animate.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/nativedroid2.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/nativedroid2.color.agrihub.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/bootstrap.css" type="text/css" />
+		<style>
+			/* Prevent FOUC */
+			body { opacity: 0; }
+		</style>
+	</head>
+	<body>
+		<!--Contents goes here-->
+		<div data-role="page" class="nd2-no-menu-swipe">
+			<nd2-include data-src="resources/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-page-theme-a">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.4s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.5s'>Register</h1>
+			</div>
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.6s">
+				<form>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="box">
+							<label for="full_name">Full Name:</label>
+							<input type="text" name="full_name" id="full_name" value="" data-clear-btn="true" placeholder="First Name, Last Name">
+						</div>
+						
+						
+						<div class="box">
+							<hr>
+						</div>
+						<div class="box">
+							<label for="location">Location: </label>
+							<input type="text" name="location" id="location" value="" data-clear-btn="true" placeholder="Location">
+						</div>
+
+						<div class="box">
+							<label for="address">Address: </label>
+							<input type="text" name="address" id="address" value="" data-clear-btn="true" placeholder="Address">
+						</div>
+ 
+						<div class="box">
+							<label for="vehicleType" class="select">Vehicle Type</label>
+	                        <select name="vehicleType" id="selectVehicle" data-native-menu="false">
+	                            <option value="truck1">Truck(13.6m)</option>
+	                            <option value="truck2">Truck(7.82m)</option>
+	                            <option value="bDouble">B-Double(25m)</option>
+	                        </select>
+						</div>
+
+						<div class="box">
+							<label for="vehicleCapacity" class="select">Vehicle Type</label>
+	                        <select name="vehicleCapacity" id="selectVehicleCapacity" data-native-menu="false">
+	                            <option value="truck1">40 Tonnes</option>
+	                            <option value="truck2">60 Tonnes</option>
+	                            <option value="truck3">90 Tonnes</option>
+	                           
+	                        </select>
+						</div>
+
+						<div class="box">
+							<a href="#" class="center-block btn btn-success btn-lg" style="color:white">Register</a>
+						</div>
+
+						
+						
+						
+					</div>
+				</form>
+				
+			</div>
+		</div>
+		<!--Contents ends here-->
+		<!--scripts section-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="css_js/vendor/waves/waves.min.js"></script>
+		<script src="css_js/vendor/wow/wow.min.js"></script>
+		<script src="css_js/js/nativedroid2.js"></script>
+		<script src="css_js/nd2settings.js"></script>
+		<!--scripts section-->
+	</body>
+</html>

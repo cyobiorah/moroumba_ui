@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AgriHub</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="Author" content="SCI-Talents, Abimbola Ayodeji, Oriolowo Nancy">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css_js/vendor/jquerymobile/jquery.mobile.min.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/vendor/waves/waves.min.css" type="text/css"  />
+		<link rel="stylesheet" href="css_js/vendor/wow/animate.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/nativedroid2.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/nativedroid2.color.agrihub.css" type="text/css" />
+		<link rel="stylesheet" href="css_js/css/bootstrap.css" type="text/css" />
+		<style>
+			/* Prevent FOUC */
+			body { opacity: 0; }
+		</style>
+	</head>
+	<body>
+		<!--Contents goes here-->
+		<!--home page-->
+		<div data-role="page" class="nd2-no-menu-swipe">
+			<nd2-include data-src="resources/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-page-theme-a">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.4s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.5s'>AgriHub</h1>
+			</div>
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.6s">
+				
+				<div class="box">
+					<div class="col-xs-12" align="center">
+						<img src="graphics assets/logo-agrihub-300-4.png" class="img.ui-thumbnail.ui-thumbnail-circular"/>
+					</div>
+				</div>
+				<div class="box" align="center">
+					<div class="col-xs-12 col-md-6">
+						<img src="graphics assets/AgriHubWhatWeDo.jpg" class="img img-responsive" >
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div>
+							<h5>Existing Users</h5>
+						</div>
+						<a href="#selectRoleLogin" class="center-block btn btn-primary btn-lg" style="color:white">Log In</a>
+					</div>
+					
+					<div class="col-xs-12 col-md-6">
+						<div>
+							<h5>New to the Platform?</h5>
+						</div>
+						<a href="#selectRoleCreate" class="center-block btn btn-success btn-lg" style="color:white">Register</a>
+					</div>
+					<div>
+						<h1> </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--home page ends here-->
+		<!--log in page-->
+		<div data-role="page" class="nd2-no-menu-swipe" id="selectRoleLogin">
+			<nd2-include data-src="resources/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-page-theme-a">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.4s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.5s'>Login</h1>
+			</div>
+			<div>
+				<a href="#" class="ui-btn" data-rel="back">Back</a>
+			</div>
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.6s">
+				<div class="box">
+					<div class="col-xs-12" style="height:30vh"></div>
+				</div>
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8">
+					<div class="controlgroup">
+						<a href="#" class="center-block btn btn-success btn-lg" style="color:white">Farmers</a>
+						<br>
+						<a href="#" class="center-block btn btn-primary btn-lg" style="color:white">Retailers</a>
+					</div>
+				</div>
+				<div class="col-xs-2">
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!--log in page ends here-->
+		<!--create account page-->
+		<div data-role="page" class="nd2-no-menu-swipe" id="selectRoleCreate">
+			<nd2-include data-src="resources/fragments/panel.left.html"></nd2-include>
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-page-theme-a">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.4s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.5s'>Create Account</h1>
+			</div>
+			<div>
+				<a href="#" class="ui-btn" data-rel="back">Back</a>
+			</div>
+			<div role="main" class="ui-content wow fadeIn" data-inset="false" data-wow-delay="0.6s">
+				<div class="box">
+					<div class="col-xs-12" style="height:30vh"></div>
+				</div>
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8">
+					<div class="controlgroup">
+						<a href="#" class="center-block btn btn-success btn-lg" style="color:white">Farmers</a>
+						<br>
+						<a href="#" class="center-block btn btn-primary btn-lg" style="color:white">Retailers</a>
+					</div>
+				</div>
+				<div class="col-xs-2">
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--create account page ends here-->
+		
+		<!--Contents ends here-->
+		<!--scripts section-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script src="css_js/vendor/waves/waves.min.js"></script>
+		<script src="css_js/vendor/wow/wow.min.js"></script>
+		<script src="css_js/js/nativedroid2.js"></script>
+		<script src="css_js/nd2settings.js"></script>
+		<!--scripts section-->
+	</body>
+</html>
